@@ -284,7 +284,7 @@ function dt(o) {
     P = "$GROYPER: Pepe's smug friend",
     f,
     h,
-    p = "0x00000000000000000000000000000000000000",
+    p = "0x92d65fE4e8679eEB293c77d0B999ad719e6Bf02E",
     x,
     D,
     j = `Buy $GROYPER Now!
@@ -411,7 +411,7 @@ function dt(o) {
         g(
           D,
           "href",
-          "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0xD9D7cF820dcAe342CD7225cAcEC931A70C5d328B"
+          "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x92d65fE4e8679eEB293c77d0B999ad719e6Bf02E"
         ),
         g(D, "target", "_blank"),
         g(
@@ -946,9 +946,9 @@ function St(o) {
           e,
           "href",
           o[7] === "DexScreener"
-            ? "https://dexscreener.com/ethereum/0x00000000000000000000000000000000000000"
+            ? "https://dexscreener.com/ethereum/0x92d65fE4e8679eEB293c77d0B999ad719e6Bf02E"
             : o[7] === "Uniswap"
-            ? "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0xD9D7cF820dcAe342CD7225cAcEC931A70C5d328B"
+            ? "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x92d65fE4e8679eEB293c77d0B999ad719e6Bf02E"
             : o[7] === "Telegram"
             ? "https://t.me/wargroypereth"
             : "https://x.com/wargroypereth"
