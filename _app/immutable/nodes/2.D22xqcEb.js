@@ -411,7 +411,7 @@ function dt(o) {
         g(
           D,
           "href",
-          "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0xcomingsoon"
+          "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0xD9D7cF820dcAe342CD7225cAcEC931A70C5d328B"
         ),
         g(D, "target", "_blank"),
         g(
@@ -948,10 +948,10 @@ function St(o) {
           o[7] === "DexScreener"
             ? "https://dexscreener.com/ethereum/0x00000000000000000000000000000000000000"
             : o[7] === "Uniswap"
-            ? "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0xcomingsoon"
+            ? "https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0xD9D7cF820dcAe342CD7225cAcEC931A70C5d328B"
             : o[7] === "Telegram"
-            ? "https://t.me/#"
-            : "https://x.com/#"
+            ? "https://t.me/wargroypereth"
+            : "https://x.com/wargroypereth"
         ),
         g(e, "target", "_blank"),
         g(e, "rel", "noopener noreferrer"),
